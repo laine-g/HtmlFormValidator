@@ -6,11 +6,7 @@ if(!defined('APP_ENTRY_POINT') || !APP_ENTRY_POINT || APP_ENTRY_POINT === false 
 
 class HtmlFormValidator{
 
-	public static $_criteria;
-	public static $_fields;
-
-	// $_ERRORS global var.
-	private static $_ERRORS;
+	private static $_criteria,$_fields,$_ERRORS;
 
 
 	public function __construct(){
